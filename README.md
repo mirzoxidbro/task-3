@@ -17,11 +17,11 @@ Biz sizdan omborga havolani (har bir yangi funktsiya alohida amalga oshirilishi 
 
 
 
-Mavzular:
-Auth - authentication
-Role 2: mijoz, menejer
-Authorization - permissions
-CRUD
-Form, file upload
-Email
-Queue, Job
+Mavzular: <br>
+Auth - authentication <br>
+Role 2: mijoz, menejer <br>
+Authorization - permissions <br>
+CRUD <br>
+Form, file upload <br>
+Email <br>
+Queue, Job <br>
