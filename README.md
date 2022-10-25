@@ -1,4 +1,4 @@
-Laravelda fikr-mulohaza shaklini amalga oshirishingiz kerak: 
+Ilova uchun texnik talablar: 
 - Ro'yxatga olish/avtorizatsiya: standart autentifikatsiya moduli (lekin foydalanuvchilar
 ikkita rolga ega bo'lishi kerak: menejer va mijoz. 
 - Mijozlar o'zlarini ro'yxatdan o'tkazishadi va menejer hisobi bo'lishi kerak oldindan yarating, login va parolni tugallangan vazifa bilan birga yuboring) 
