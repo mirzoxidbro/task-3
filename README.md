@@ -1,9 +1,10 @@
-Laravelda fikr-mulohaza shaklini amalga oshirishingiz kerak: <br>
--ro'yxatga olish/avtorizatsiya: standart autentifikatsiya moduli (lekin foydalanuvchilar
-ikkita rolga ega bo'lishi kerak: menejer va mijoz. <br>
-Mijozlar o'zlarini ro'yxatdan o'tkazishadi va menejer hisobi bo'lishi kerak oldindan yarating, login va parolni tugallangan vazifa bilan birga yuboring) <br>
--kirishdan so'ng mijoz fikr-mulohaza shaklini, menejer esa ro'yxatni ko'radi ilovalar. (barcha sahifalar va funksiyalar faqat avtorizatsiya qilinganlar uchun mavjud foydalanuvchilar va faqat ularning imtiyozlariga ko'ra)
-- menejer ilovalar ro'yxatini ko'rishi va ularni belgilashi mumkin javob berdi. - ilovalar ro'yxati:
+Laravelda fikr-mulohaza shaklini amalga oshirishingiz kerak: 
+- Ro'yxatga olish/avtorizatsiya: standart autentifikatsiya moduli (lekin foydalanuvchilar
+ikkita rolga ega bo'lishi kerak: menejer va mijoz. 
+- Mijozlar o'zlarini ro'yxatdan o'tkazishadi va menejer hisobi bo'lishi kerak oldindan yarating, login va parolni tugallangan vazifa bilan birga yuboring) 
+- kirishdan so'ng mijoz fikr-mulohaza shaklini, menejer esa ro'yxatni ko'radi ilovalar. (barcha sahifalar va funksiyalar faqat avtorizatsiya qilinganlar uchun mavjud foydalanuvchilar va faqat ularning imtiyozlariga ko'ra)
+- menejer ilovalar ro'yxatini ko'rishi va ularni belgilashi mumkin javob berdi. 
+- ilovalar ro'yxati:
 *ID, mavzu, xabar, mijoz nomi, mijoz elektron pochtasi, biriktirilgan faylga havola, yaratish vaqti
 - mijoz so'rov qoldirishi mumkin, lekin kuniga bir martadan ko'p emas.
 - ilovani yaratish sahifasida: mavzu va xabar, faylni kiritish, "yuborish" tugmasi.
