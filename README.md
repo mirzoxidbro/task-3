@@ -26,3 +26,30 @@ CRUD <br>
 Form, file upload <br>
 Email <br>
 Queue, Job <br>
+
+
+## Proyektni o'rnatish
+
+```
+Compser install
+```
+
+```
+.env configurate
+```
+
+```
+php artisan:migrate
+```
+
+```
+php artisan db:seed
+```
+
+```
+npm install
+```
+
+```
+npm run dev
+```

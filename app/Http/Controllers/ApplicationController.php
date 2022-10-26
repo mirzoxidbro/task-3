@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\StoreApplicationRequest;
 use App\Jobs\SendEmailJob;
 use App\Mail\ApplicationCreated;
 use App\Models\Application;
@@ -12,7 +13,7 @@ use Illuminate\Support\Facades\Mail;
 
 class ApplicationController extends Controller
 {
-    public function store(Request $request)
+    public function store(StoreApplicationRequest $request)
     {
         if($this->checkDate())
         {
@@ -24,12 +25,6 @@ class ApplicationController extends Controller
             $fileName = $request->file('file_url')->getClientOriginalName();
             $path = $request->file('file_url')->storeAs('files', $fileName, 'public');
         }
-
-        $request->validate([
-            'subject' => 'required|max:255',
-            'message' => 'required',
-            'file_url' => 'file|mimes:png,jpg,pdf'
-        ]);
 
 
         $application = Application::create([
