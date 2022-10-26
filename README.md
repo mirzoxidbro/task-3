@@ -31,7 +31,7 @@ Queue, Job <br>
 ## Proyektni o'rnatish
 
 ```
-Compser install
+compser install
 ```
 
 ```
